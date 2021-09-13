@@ -7,6 +7,8 @@
     float: left;
     height: 100px;
     width: 100px;
+    text-align: center;
+    font-size: 5em;
     /* border: 1px solid black; */
 }
 
@@ -15,6 +17,15 @@
     width: 302px;
     margin: auto;
     cursor: pointer;
+}
+
+h1 {
+    font-size: 3em;
+    text-transform: capitalize;
+}
+
+body {
+    background-image: url('./green-color.jpg');
 }
 
 .top {
@@ -31,4 +42,13 @@
 
 .right {
     border-left: 1px solid black;
+}
+
+.button {
+    background-color: limegreen;
+    width: 5em;
+    height: 2em;
+    position: absolute;
+    right: 446px;
+    bottom: 300px;
 }
